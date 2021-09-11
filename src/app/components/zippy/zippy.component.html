@@ -1,0 +1,6 @@
+<div class="zippy">
+  <div class="zippy-heading" [class.active]="isActive" (click)="toggle()">
+    {{ zippy.title }}
+  </div>
+  <div class="zippy-body" *ngIf="isActive">{{ zippy.content }}</div>
+</div>

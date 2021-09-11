@@ -1,0 +1,17 @@
+.zippy {
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #ccc;
+  min-width: 10rem;
+  cursor: pointer;
+  &-heading {
+    padding: 1rem;
+    &.active {
+      background-color: #ccc;
+    }
+  }
+  &-body {
+    padding: 1rem;
+    transition: all 0.5s;
+  }
+}
